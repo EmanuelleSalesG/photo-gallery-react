@@ -44,7 +44,8 @@ const Page = () => {
       {
         showModal &&
         <Modal
-        
+        image={imageOfModal}
+        closeModal={closeModal}
         />
       }
     </div>
